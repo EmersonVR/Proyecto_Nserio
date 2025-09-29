@@ -23,7 +23,6 @@ export class OrdersDialogComponent {
   private platformId = di(PLATFORM_ID);
   readonly isBrowser = isPlatformBrowser(this.platformId);
 
-  // si aún no devuelves CustId en /api/customers, ingrésalo manual
   customerId!: number;
   cols = ['orderId', 'requiredDate', 'shippedDate', 'shipName', 'shipAddress', 'shipCity'];
   data: ClientOrder[] = [];
