@@ -1,0 +1,12 @@
+C:\Proyectos personales\Salespredictionapi\SalesPrediction.Domain\bin\Debug\net9.0\SalesPrediction.Domain.deps.json
+C:\Proyectos personales\Salespredictionapi\SalesPrediction.Domain\bin\Debug\net9.0\SalesPrediction.Domain.dll
+C:\Proyectos personales\Salespredictionapi\SalesPrediction.Domain\bin\Debug\net9.0\SalesPrediction.Domain.pdb
+C:\Proyectos personales\Salespredictionapi\SalesPrediction.Domain\obj\Debug\net9.0\SalesPrediction.Domain.csproj.AssemblyReference.cache
+C:\Proyectos personales\Salespredictionapi\SalesPrediction.Domain\obj\Debug\net9.0\SalesPrediction.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyectos personales\Salespredictionapi\SalesPrediction.Domain\obj\Debug\net9.0\SalesPrediction.Domain.AssemblyInfoInputs.cache
+C:\Proyectos personales\Salespredictionapi\SalesPrediction.Domain\obj\Debug\net9.0\SalesPrediction.Domain.AssemblyInfo.cs
+C:\Proyectos personales\Salespredictionapi\SalesPrediction.Domain\obj\Debug\net9.0\SalesPrediction.Domain.csproj.CoreCompileInputs.cache
+C:\Proyectos personales\Salespredictionapi\SalesPrediction.Domain\obj\Debug\net9.0\SalesPrediction.Domain.dll
+C:\Proyectos personales\Salespredictionapi\SalesPrediction.Domain\obj\Debug\net9.0\refint\SalesPrediction.Domain.dll
+C:\Proyectos personales\Salespredictionapi\SalesPrediction.Domain\obj\Debug\net9.0\SalesPrediction.Domain.pdb
+C:\Proyectos personales\Salespredictionapi\SalesPrediction.Domain\obj\Debug\net9.0\ref\SalesPrediction.Domain.dll

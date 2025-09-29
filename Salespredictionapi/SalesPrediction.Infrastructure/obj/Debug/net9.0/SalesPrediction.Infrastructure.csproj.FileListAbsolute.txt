@@ -1,0 +1,15 @@
+C:\Proyectos personales\Salespredictionapi\SalesPrediction.Infrastructure\bin\Debug\net9.0\SalesPrediction.Infrastructure.deps.json
+C:\Proyectos personales\Salespredictionapi\SalesPrediction.Infrastructure\bin\Debug\net9.0\SalesPrediction.Infrastructure.dll
+C:\Proyectos personales\Salespredictionapi\SalesPrediction.Infrastructure\bin\Debug\net9.0\SalesPrediction.Infrastructure.pdb
+C:\Proyectos personales\Salespredictionapi\SalesPrediction.Infrastructure\bin\Debug\net9.0\SalesPrediction.Domain.dll
+C:\Proyectos personales\Salespredictionapi\SalesPrediction.Infrastructure\bin\Debug\net9.0\SalesPrediction.Domain.pdb
+C:\Proyectos personales\Salespredictionapi\SalesPrediction.Infrastructure\obj\Debug\net9.0\SalesPrediction.Infrastructure.csproj.AssemblyReference.cache
+C:\Proyectos personales\Salespredictionapi\SalesPrediction.Infrastructure\obj\Debug\net9.0\SalesPrediction.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyectos personales\Salespredictionapi\SalesPrediction.Infrastructure\obj\Debug\net9.0\SalesPrediction.Infrastructure.AssemblyInfoInputs.cache
+C:\Proyectos personales\Salespredictionapi\SalesPrediction.Infrastructure\obj\Debug\net9.0\SalesPrediction.Infrastructure.AssemblyInfo.cs
+C:\Proyectos personales\Salespredictionapi\SalesPrediction.Infrastructure\obj\Debug\net9.0\SalesPrediction.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Proyectos personales\Salespredictionapi\SalesPrediction.Infrastructure\obj\Debug\net9.0\SalesPre.61A740ED.Up2Date
+C:\Proyectos personales\Salespredictionapi\SalesPrediction.Infrastructure\obj\Debug\net9.0\SalesPrediction.Infrastructure.dll
+C:\Proyectos personales\Salespredictionapi\SalesPrediction.Infrastructure\obj\Debug\net9.0\refint\SalesPrediction.Infrastructure.dll
+C:\Proyectos personales\Salespredictionapi\SalesPrediction.Infrastructure\obj\Debug\net9.0\SalesPrediction.Infrastructure.pdb
+C:\Proyectos personales\Salespredictionapi\SalesPrediction.Infrastructure\obj\Debug\net9.0\ref\SalesPrediction.Infrastructure.dll

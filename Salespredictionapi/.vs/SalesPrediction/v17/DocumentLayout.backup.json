@@ -1,0 +1,270 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Proyectos personales\\Salespredictionapi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2358C6F9-E646-4869-9FC4-21CC329825E7}|SalesPrediction.Infrastructure\\SalesPrediction.Infrastructure.csproj|c:\\proyectos personales\\salespredictionapi\\salesprediction.infrastructure\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2358C6F9-E646-4869-9FC4-21CC329825E7}|SalesPrediction.Infrastructure\\SalesPrediction.Infrastructure.csproj|solutionrelative:salesprediction.infrastructure\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2358C6F9-E646-4869-9FC4-21CC329825E7}|SalesPrediction.Infrastructure\\SalesPrediction.Infrastructure.csproj|c:\\proyectos personales\\salespredictionapi\\salesprediction.infrastructure\\catalogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2358C6F9-E646-4869-9FC4-21CC329825E7}|SalesPrediction.Infrastructure\\SalesPrediction.Infrastructure.csproj|solutionrelative:salesprediction.infrastructure\\catalogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2358C6F9-E646-4869-9FC4-21CC329825E7}|SalesPrediction.Infrastructure\\SalesPrediction.Infrastructure.csproj|c:\\proyectos personales\\salespredictionapi\\salesprediction.infrastructure\\ordersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2358C6F9-E646-4869-9FC4-21CC329825E7}|SalesPrediction.Infrastructure\\SalesPrediction.Infrastructure.csproj|solutionrelative:salesprediction.infrastructure\\ordersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9322B56B-12B1-4375-ADAC-B8E25D8EC711}|SalesPrediction.Domain\\SalesPrediction.Domain.csproj|c:\\proyectos personales\\salespredictionapi\\salesprediction.domain\\createorderdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9322B56B-12B1-4375-ADAC-B8E25D8EC711}|SalesPrediction.Domain\\SalesPrediction.Domain.csproj|solutionrelative:salesprediction.domain\\createorderdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2358C6F9-E646-4869-9FC4-21CC329825E7}|SalesPrediction.Infrastructure\\SalesPrediction.Infrastructure.csproj|c:\\proyectos personales\\salespredictionapi\\salesprediction.infrastructure\\abstractions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2358C6F9-E646-4869-9FC4-21CC329825E7}|SalesPrediction.Infrastructure\\SalesPrediction.Infrastructure.csproj|solutionrelative:salesprediction.infrastructure\\abstractions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C202A9FE-29B5-48B5-B0EE-79712C75AF02}|SalesPrediction.Api\\SalesPrediction.Api.csproj|c:\\proyectos personales\\salespredictionapi\\salesprediction.api\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C202A9FE-29B5-48B5-B0EE-79712C75AF02}|SalesPrediction.Api\\SalesPrediction.Api.csproj|solutionrelative:salesprediction.api\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9322B56B-12B1-4375-ADAC-B8E25D8EC711}|SalesPrediction.Domain\\SalesPrediction.Domain.csproj|c:\\proyectos personales\\salespredictionapi\\salesprediction.domain\\dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9322B56B-12B1-4375-ADAC-B8E25D8EC711}|SalesPrediction.Domain\\SalesPrediction.Domain.csproj|solutionrelative:salesprediction.domain\\dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2358C6F9-E646-4869-9FC4-21CC329825E7}|SalesPrediction.Infrastructure\\SalesPrediction.Infrastructure.csproj|c:\\proyectos personales\\salespredictionapi\\salesprediction.infrastructure\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2358C6F9-E646-4869-9FC4-21CC329825E7}|SalesPrediction.Infrastructure\\SalesPrediction.Infrastructure.csproj|solutionrelative:salesprediction.infrastructure\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C202A9FE-29B5-48B5-B0EE-79712C75AF02}|SalesPrediction.Api\\SalesPrediction.Api.csproj|c:\\proyectos personales\\salespredictionapi\\salesprediction.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C202A9FE-29B5-48B5-B0EE-79712C75AF02}|SalesPrediction.Api\\SalesPrediction.Api.csproj|solutionrelative:salesprediction.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C202A9FE-29B5-48B5-B0EE-79712C75AF02}|SalesPrediction.Api\\SalesPrediction.Api.csproj|c:\\proyectos personales\\salespredictionapi\\salesprediction.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C202A9FE-29B5-48B5-B0EE-79712C75AF02}|SalesPrediction.Api\\SalesPrediction.Api.csproj|solutionrelative:salesprediction.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C202A9FE-29B5-48B5-B0EE-79712C75AF02}|SalesPrediction.Api\\SalesPrediction.Api.csproj|c:\\proyectos personales\\salespredictionapi\\salesprediction.api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C202A9FE-29B5-48B5-B0EE-79712C75AF02}|SalesPrediction.Api\\SalesPrediction.Api.csproj|solutionrelative:salesprediction.api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C202A9FE-29B5-48B5-B0EE-79712C75AF02}|SalesPrediction.Api\\SalesPrediction.Api.csproj|c:\\proyectos personales\\salespredictionapi\\salesprediction.api\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C202A9FE-29B5-48B5-B0EE-79712C75AF02}|SalesPrediction.Api\\SalesPrediction.Api.csproj|solutionrelative:salesprediction.api\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C202A9FE-29B5-48B5-B0EE-79712C75AF02}|SalesPrediction.Api\\SalesPrediction.Api.csproj|c:\\proyectos personales\\salespredictionapi\\salesprediction.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C202A9FE-29B5-48B5-B0EE-79712C75AF02}|SalesPrediction.Api\\SalesPrediction.Api.csproj|solutionrelative:salesprediction.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C202A9FE-29B5-48B5-B0EE-79712C75AF02}|SalesPrediction.Api\\SalesPrediction.Api.csproj|c:\\proyectos personales\\salespredictionapi\\salesprediction.api\\controllers\\shipperscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C202A9FE-29B5-48B5-B0EE-79712C75AF02}|SalesPrediction.Api\\SalesPrediction.Api.csproj|solutionrelative:salesprediction.api\\controllers\\shipperscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C202A9FE-29B5-48B5-B0EE-79712C75AF02}|SalesPrediction.Api\\SalesPrediction.Api.csproj|c:\\proyectos personales\\salespredictionapi\\salesprediction.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C202A9FE-29B5-48B5-B0EE-79712C75AF02}|SalesPrediction.Api\\SalesPrediction.Api.csproj|solutionrelative:salesprediction.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Proyectos personales\\Salespredictionapi\\SalesPrediction.Infrastructure\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "SalesPrediction.Infrastructure\\CustomerRepository.cs",
+              "ToolTip": "C:\\Proyectos personales\\Salespredictionapi\\SalesPrediction.Infrastructure\\CustomerRepository.cs",
+              "RelativeToolTip": "SalesPrediction.Infrastructure\\CustomerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T05:35:31.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Proyectos personales\\Salespredictionapi\\SalesPrediction.Api\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "SalesPrediction.Api\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Proyectos personales\\Salespredictionapi\\SalesPrediction.Api\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "SalesPrediction.Api\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T05:03:49.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "C:\\Proyectos personales\\Salespredictionapi\\SalesPrediction.Api\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "SalesPrediction.Api\\Controllers\\CustomersController.cs",
+              "ToolTip": "C:\\Proyectos personales\\Salespredictionapi\\SalesPrediction.Api\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "SalesPrediction.Api\\Controllers\\CustomersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T05:00:55.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dto.cs",
+              "DocumentMoniker": "C:\\Proyectos personales\\Salespredictionapi\\SalesPrediction.Domain\\Dto.cs",
+              "RelativeDocumentMoniker": "SalesPrediction.Domain\\Dto.cs",
+              "ToolTip": "C:\\Proyectos personales\\Salespredictionapi\\SalesPrediction.Domain\\Dto.cs",
+              "RelativeToolTip": "SalesPrediction.Domain\\Dto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T04:39:28.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateOrderDtoValidator.cs",
+              "DocumentMoniker": "C:\\Proyectos personales\\Salespredictionapi\\SalesPrediction.Domain\\CreateOrderDtoValidator.cs",
+              "RelativeDocumentMoniker": "SalesPrediction.Domain\\CreateOrderDtoValidator.cs",
+              "ToolTip": "C:\\Proyectos personales\\Salespredictionapi\\SalesPrediction.Domain\\CreateOrderDtoValidator.cs",
+              "RelativeToolTip": "SalesPrediction.Domain\\CreateOrderDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T04:41:05.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Abstractions.cs",
+              "DocumentMoniker": "C:\\Proyectos personales\\Salespredictionapi\\SalesPrediction.Infrastructure\\Abstractions.cs",
+              "RelativeDocumentMoniker": "SalesPrediction.Infrastructure\\Abstractions.cs",
+              "ToolTip": "C:\\Proyectos personales\\Salespredictionapi\\SalesPrediction.Infrastructure\\Abstractions.cs",
+              "RelativeToolTip": "SalesPrediction.Infrastructure\\Abstractions.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T04:52:47.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrdersRepository.cs",
+              "DocumentMoniker": "C:\\Proyectos personales\\Salespredictionapi\\SalesPrediction.Infrastructure\\OrdersRepository.cs",
+              "RelativeDocumentMoniker": "SalesPrediction.Infrastructure\\OrdersRepository.cs",
+              "ToolTip": "C:\\Proyectos personales\\Salespredictionapi\\SalesPrediction.Infrastructure\\OrdersRepository.cs",
+              "RelativeToolTip": "SalesPrediction.Infrastructure\\OrdersRepository.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAuwDkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T04:57:21.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CatalogRepository.cs",
+              "DocumentMoniker": "C:\\Proyectos personales\\Salespredictionapi\\SalesPrediction.Infrastructure\\CatalogRepository.cs",
+              "RelativeDocumentMoniker": "SalesPrediction.Infrastructure\\CatalogRepository.cs",
+              "ToolTip": "C:\\Proyectos personales\\Salespredictionapi\\SalesPrediction.Infrastructure\\CatalogRepository.cs",
+              "RelativeToolTip": "SalesPrediction.Infrastructure\\CatalogRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T04:58:24.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DapperContext.cs",
+              "DocumentMoniker": "C:\\Proyectos personales\\Salespredictionapi\\SalesPrediction.Infrastructure\\DapperContext.cs",
+              "RelativeDocumentMoniker": "SalesPrediction.Infrastructure\\DapperContext.cs",
+              "ToolTip": "C:\\Proyectos personales\\Salespredictionapi\\SalesPrediction.Infrastructure\\DapperContext.cs",
+              "RelativeToolTip": "SalesPrediction.Infrastructure\\DapperContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T04:47:21.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Proyectos personales\\Salespredictionapi\\SalesPrediction.Api\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "SalesPrediction.Api\\Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Proyectos personales\\Salespredictionapi\\SalesPrediction.Api\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "SalesPrediction.Api\\Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T05:13:39.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Proyectos personales\\Salespredictionapi\\SalesPrediction.Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "SalesPrediction.Api\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Proyectos personales\\Salespredictionapi\\SalesPrediction.Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "SalesPrediction.Api\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-28T22:26:36.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Proyectos personales\\Salespredictionapi\\SalesPrediction.Api\\Program.cs",
+              "RelativeDocumentMoniker": "SalesPrediction.Api\\Program.cs",
+              "ToolTip": "C:\\Proyectos personales\\Salespredictionapi\\SalesPrediction.Api\\Program.cs",
+              "RelativeToolTip": "SalesPrediction.Api\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T04:59:07.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Proyectos personales\\Salespredictionapi\\SalesPrediction.Api\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "SalesPrediction.Api\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Proyectos personales\\Salespredictionapi\\SalesPrediction.Api\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "SalesPrediction.Api\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T05:15:34.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ShippersController.cs",
+              "DocumentMoniker": "C:\\Proyectos personales\\Salespredictionapi\\SalesPrediction.Api\\Controllers\\ShippersController.cs",
+              "RelativeDocumentMoniker": "SalesPrediction.Api\\Controllers\\ShippersController.cs",
+              "ToolTip": "C:\\Proyectos personales\\Salespredictionapi\\SalesPrediction.Api\\Controllers\\ShippersController.cs",
+              "RelativeToolTip": "SalesPrediction.Api\\Controllers\\ShippersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T05:14:41.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Proyectos personales\\Salespredictionapi\\SalesPrediction.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "SalesPrediction.Api\\appsettings.json",
+              "ToolTip": "C:\\Proyectos personales\\Salespredictionapi\\SalesPrediction.Api\\appsettings.json",
+              "RelativeToolTip": "SalesPrediction.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-28T04:48:15.021Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
