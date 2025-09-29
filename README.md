@@ -50,14 +50,19 @@ Verifique las vistas y los SP:
 la aplicacion backend al ejecutar mostrara el swagger con los enpoint  
 
 cd Salespredictionapi
+
 dotnet restore
+
 dotnet run
 
 sales-ui
 
 cd sales-ui
+
 npm i
+
 npm start
+
 # abre http://localhost:4200
 
 
