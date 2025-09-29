@@ -1,0 +1,51 @@
+<mat-toolbar class="orders-toolbar" color="warn">
+    Customer {{ inj.customerName ?? ('#' + customerId) }} - Orders
+</mat-toolbar>
+
+
+<mat-dialog-content class="orders-body">
+    <div class="table-wrap">
+        <table mat-table [dataSource]="data" matSort (matSortChange)="onSort($event)" class="mat-elevation-z2">
+            <ng-container matColumnDef="orderId">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header>Order ID</th>
+                <td mat-cell *matCellDef="let r">{{ r.orderId }}</td>
+            </ng-container>
+
+            <ng-container matColumnDef="requiredDate">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header>Required Date</th>
+                <td mat-cell *matCellDef="let r">{{ r.requiredDate | date:'M/d/yyyy, h:mm:ss a' }}</td>
+            </ng-container>
+
+            <ng-container matColumnDef="shippedDate">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header>Shipped Date</th>
+                <td mat-cell *matCellDef="let r">{{ r.shippedDate | date:'M/d/yyyy, h:mm:ss a' }}</td>
+            </ng-container>
+
+            <ng-container matColumnDef="shipName">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header>Ship Name</th>
+                <td mat-cell *matCellDef="let r">{{ r.shipName }}</td>
+            </ng-container>
+
+            <ng-container matColumnDef="shipAddress">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header>Ship Address</th>
+                <td mat-cell *matCellDef="let r">{{ r.shipAddress }}</td>
+            </ng-container>
+
+            <ng-container matColumnDef="shipCity">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header>Ship City</th>
+                <td mat-cell *matCellDef="let r">{{ r.shipCity }}</td>
+            </ng-container>
+
+            <tr mat-header-row *matHeaderRowDef="cols"></tr>
+            <tr mat-row *matRowDef="let row; columns: cols;"></tr>
+        </table>
+    </div>
+
+    <mat-paginator class="paginator-bar" [length]="total" [pageSize]="pageSize" [pageIndex]="page-1"
+        [pageSizeOptions]="[10,20,50]" (page)="onPage($event)">
+    </mat-paginator>
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+    <button mat-stroked-button mat-dialog-close>Close</button>
+</mat-dialog-actions>

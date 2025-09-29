@@ -1,0 +1,37 @@
+.home {
+  padding: 8px;                 /* menos margen externo */
+  display: flex; justify-content: center;
+}
+
+/* ancho más generoso */
+.customers-card {
+  width: min(1500px, 98vw);     /* antes 1200/96; ahora ~1500px o casi full-bleed */
+}
+
+/* header compacto para darle más cuerpo a la tabla */
+mat-card-header {
+  display: flex; align-items: center; gap: 12px;
+  padding: 8px 16px 4px;        /* un pelín más compacto */
+}
+.header-spacer { flex: 1; }
+.search { width: 420px; min-width: 280px; }  /* search más ancho */
+
+.table-wrap { position: relative; overflow: hidden; }
+
+/* filas cómodas; puedes subir a 52–56 si quieres más “grande” */
+.mat-mdc-header-row, .mat-mdc-row { height: 52px; }
+
+table { width: 100%; font-size: 14.5px; }   /* un puntito más grande */
+.mat-mdc-header-cell { font-weight: 600; }
+
+.actions { text-align: right; white-space: nowrap; }
+.link-warn { color: #d32f2f !important; font-weight: 600; }
+.link-success { color: #2e7d32 !important; font-weight: 600; }
+
+.loading {
+  position: absolute; inset: 0;
+  display: flex; align-items: center; justify-content: center;
+  background: rgba(255,255,255,0.6);
+}
+
+mat-paginator { border-top: 1px solid rgba(0,0,0,0.08); }

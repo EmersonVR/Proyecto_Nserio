@@ -1,0 +1,17 @@
+/* new-order-dialog.component.scss */
+.form-grid { padding: 12px; display: block; }
+.row { display: flex; gap: 12px; margin-bottom: 12px; }
+.full { width: 100%; }
+.grow { flex: 1; min-width: 220px; }
+.actions { display: flex; justify-content: flex-end; gap: 12px; margin-top: 12px; }
+
+.neworder-toolbar {
+  /* Colores del contenedor del toolbar */
+  --mat-toolbar-container-background-color: #16a34a; /* verde */
+  --mat-toolbar-container-text-color: #ffffff;
+
+  /* Extras opcionales */
+  font-weight: 300;
+  letter-spacing: .2px;
+  border-radius: 6px 6px 0 0; /* si es un encabezado de cuadro/modal */
+}

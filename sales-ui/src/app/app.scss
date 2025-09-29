@@ -1,0 +1,45 @@
+.topbar--dark {
+  background: #000;         /* fondo negro como pediste */
+  color: #fff;
+  min-height: 56px;
+  padding: 0 16px;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;                /* espacio uniforme entre items */
+
+  .title {
+    font-weight: 600;
+  }
+
+  .spacer { flex: 1; }      /* empuja link + logo a la derecha */
+
+  .top-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 6px 10px;
+    border-radius: 6px;
+    line-height: 1;
+
+    /* feedback al hover sin “parpadear” el layout */
+    &:hover { background: rgba(255,255,255,.08); }
+    &:active { background: rgba(255,255,255,.14); }
+  }
+
+  .brand {
+    height: 40px;           /* ajusta 36–44px a gusto */
+    width: auto;
+    display: block;
+    object-fit: contain;
+  }
+}
+
+/* Responsive: en pantallas muy pequeñas, reduce logo y compacta el link */
+@media (max-width: 480px) {
+  .topbar--dark {
+    gap: 8px;
+    .top-link { padding: 4px 8px; font-weight: 600; }
+    .brand { height: 32px; }
+  }
+}

@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>D3 Demo – Horizontal Bars</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+  <style>
+    :root{
+      --bg:#fafafa; --card:#fff; --text:#212121; --muted:#616161;
+      --primary:#42a5f5; --border:#e0e0e0; --grid:#eeeeee;
+    }
+    *{box-sizing:border-box}
+    body{margin:0; font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif; color:var(--text); background:var(--bg);}
+    .wrap{max-width:980px; margin:24px auto; padding:0 16px;}
+    h2{margin:0 0 8px}
+    .card{background:var(--card); border:1px solid var(--border); border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,.06)}
+    .panel{padding:16px; display:flex; gap:12px; align-items:center; flex-wrap:wrap; border-bottom:1px solid var(--border)}
+    label{font-weight:700; margin-right:8px}
+    input[type="text"]{
+      flex:1; min-width:260px; padding:10px 12px; border:1px solid var(--border); border-radius:8px; font-size:14px;
+    }
+    button{
+      padding:10px 16px; border:none; border-radius:8px; color:#fff; background:var(--primary);
+      cursor:pointer; font-weight:600;
+    }
+    button:hover{filter:brightness(.95)}
+    .error{width:100%; color:#d32f2f; font-size:12px}
+    .chart{padding:12px 16px 16px}
+    .axis text{ fill:#616161; font-size:12px; }
+    .axis .domain, .axis line{ stroke:#bdbdbd; }
+    .grid line { stroke: var(--grid); }
+    .value-label{ fill:#0d47a1; font-size:12px; font-weight:700; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <div class="panel">
+        <label for="dataInput">Source Data:</label>
+        <input id="dataInput" type="text" placeholder="4,8,15,16,23,42" />
+        <button id="plotBtn">Update Data</button>
+        <div id="error" class="error" aria-live="polite"></div>
+      </div>
+
+      <div class="chart">
+        <svg id="chart" width="100%" height="360" role="img" aria-label="Horizontal bar chart"></svg>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const svg = d3.select('#chart');
+    const err = document.getElementById('error');
+
+    // Márgenes para horizontal (espacio a la izquierda para etiquetas si las necesitas)
+    const M = { top: 16, right: 28, bottom: 28, left: 16 };
+
+    // Paleta de 5 colores, evitando adyacentes iguales
+    const PALETTE = ['#5e92f3','#64b5f6','#90caf9','#42a5f5','#1976d2'];
+
+    function parseInput(raw){
+      err.textContent = '';
+      if(!raw || !raw.trim()){
+        return [4,8,15,16,23,42]; // default
+      }
+      const parts = raw.split(/[,;\s]+/).map(s=>s.trim()).filter(Boolean);
+      const nums = [];
+      for(const p of parts){
+        if(!/^-?\d+$/.test(p)){
+          err.textContent = `Valor inválido: "${p}". Use enteros separados por coma.`;
+          return null;
+        }
+        nums.push(parseInt(p,10));
+      }
+      return nums;
+    }
+
+    function render(values){
+      const node = svg.node();
+      const width = node.clientWidth || 800;
+      const height = +svg.attr('height') || 360;
+
+      svg.selectAll('*').remove();
+
+      const innerW = width - M.left - M.right;
+      const innerH = height - M.top - M.bottom;
+
+      const g = svg.append('g').attr('transform', `translate(${M.left},${M.top})`);
+
+      // Escalas para BARRAS HORIZONTALES
+      const y = d3.scaleBand()
+        .domain(d3.range(values.length))
+        .range([0, innerH])
+        .padding(0.2);
+
+      const xMax = d3.max(values) || 0;
+      const x = d3.scaleLinear()
+        .domain([0, xMax * 1.1 || 1]).nice()
+        .range([0, innerW]);
+
+      // Grilla vertical
+      g.append('g')
+        .attr('class','grid')
+        .attr('transform', `translate(0,${innerH})`)
+        .call(d3.axisBottom(x).ticks(5).tickSize(-innerH).tickFormat(''))
+        .selectAll('line').attr('opacity', 0.7);
+
+      // Eje X abajo (opcional, solo marcas)
+      g.append('g')
+        .attr('class','axis')
+        .attr('transform', `translate(0,${innerH})`)
+        .call(d3.axisBottom(x).ticks(5));
+
+      // Barras (y horizontales)
+      let lastColorIdx = -1;
+      const bars = g.selectAll('rect')
+        .data(values)
+        .join('rect')
+        .attr('x', 0)
+        .attr('y', (_,i) => y(i))
+        .attr('height', y.bandwidth())
+        .attr('width', 0) // animación desde 0
+        .attr('rx', 4).attr('ry', 4)
+        .attr('fill', (_, i) => {
+          let idx = i % PALETTE.length;
+          if (idx === lastColorIdx) idx = (idx + 1) % PALETTE.length;
+          lastColorIdx = idx;
+          return PALETTE[idx];
+        });
+
+      bars.transition()
+        .duration(600)
+        .attr('width', d => x(d));
+
+      // Etiquetas numéricas al final de cada barra
+      const labels = g.selectAll('.value-label')
+        .data(values)
+        .join('text')
+        .attr('class','value-label')
+        .attr('y', (_,i) => y(i) + y.bandwidth()/2 + 4)
+        .attr('x', d => x(d) + 6)
+        .text(d => d);
+
+      // Evitar que la etiqueta se salga (si la barra es muy corta, ponerla dentro en blanco)
+      labels.each(function(d){
+        const t = d3.select(this);
+        const w = this.getComputedTextLength();
+        if (x(d) + 6 + w > innerW){
+          t.attr('x', Math.max(6, x(d) - 6))
+           .attr('text-anchor','end')
+           .attr('fill','#0d47a1'); // ya es azul oscuro; si quisieras blanco, cambia a '#fff'
+        }
+      });
+    }
+
+    function update(){
+      const raw = document.getElementById('dataInput').value;
+      const parsed = parseInput(raw);
+      if (parsed === null) return; // error mostrado
+      render(parsed);
+    }
+
+    // Inicial
+    render([4,8,15,16,23,42]);
+
+    // Eventos
+    document.getElementById('plotBtn').addEventListener('click', update);
+    document.getElementById('dataInput').addEventListener('keydown', (e)=>{
+      if (e.key === 'Enter') update();
+    });
+
+    // Redibujar responsivo
+    window.addEventListener('resize', update);
+  </script>
+</body>
+</html>
