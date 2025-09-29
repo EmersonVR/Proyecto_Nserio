@@ -19,7 +19,6 @@ import { debounceTime, distinctUntilChanged, finalize } from 'rxjs/operators';
 import { CustomersService } from '../../../core/services/customers.service';
 import { CustomerPrediction, PageQuery, PagedResult } from '../../../core/models/api.models';
 
-// ⚠️ IMPORTA los diálogos desde sus archivos *.component.ts
 import { OrdersDialogComponent } from '../../shared/orders-dialog/orders-dialog';
 import { NewOrderDialogComponent } from '../../shared/new-order-dialog/new-order-dialog';
 
@@ -35,7 +34,7 @@ import { NewOrderDialogComponent } from '../../shared/new-order-dialog/new-order
     MatProgressSpinnerModule
   ],
   templateUrl: './predictions-page.html',
-  styleUrls: ['./predictions-page.scss'] // <- plural
+  styleUrls: ['./predictions-page.scss'] 
 })
 export class PredictionsPageComponent {
   private srv = inject(CustomersService);
@@ -102,7 +101,7 @@ export class PredictionsPageComponent {
   }
 
   onSort(e: Sort) {
-    this.sortBy = e.active ? this.cap(e.active) : undefined; // API usa PascalCase
+    this.sortBy = e.active ? this.cap(e.active) : undefined; 
     this.sortDir = e.direction ? (e.direction.toUpperCase() as 'ASC' | 'DESC') : undefined;
     if (this.isBrowser) this.load();
   }
